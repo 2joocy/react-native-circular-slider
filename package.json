@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "a": "cd android && gradlew clean && cd .. && react-native run-android",
+    "l": "react-native log-android",
+    "s": "react-native start",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
